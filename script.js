@@ -19,5 +19,4 @@ generateBtnEl.addEventListener("click", function () {
         password1El.textContent += characters[randomCharacter1];
         password2El.textContent += characters[randomCharacter2];
     }
-
 })
