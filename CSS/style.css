@@ -1,75 +1,75 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Karla', 'sans-serif';
-    font-size: 16px;
-    background: linear-gradient(to bottom, #10B981, #273549);
+  font-family: "Karla", "sans-serif";
+  font-size: 16px;
+  background: linear-gradient(to bottom, #10b981, #273549);
 }
 
 main {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
-    width: 80%;
-    max-width: 400px;
-    background-color: #ECFDF5;
-    padding: 4rem 2rem;
-    border-radius: 0.5rem;
-    box-shadow: 2px 29px 29px -1px rgba(49, 49, 49, 0.53)
+  width: 80%;
+  max-width: 400px;
+  background-color: #ecfdf5;
+  padding: 4rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 29px 29px -1px rgba(49, 49, 49, 0.53);
 }
 
 .header-content {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .heading {
-    font-weight: 800;
-    font-size: 1.8rem;
+  font-weight: 800;
+  font-size: 1.8rem;
 }
 
 span.heading__highlighted {
-    color: #10B981;
+  color: #10b981;
 }
 
 .header-content p {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .btn {
-    padding: 8px 16px;
-    text-align: center;
-    border: none;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 0.8rem;
-    width: 50%;
-    cursor: pointer;
+  padding: 8px 16px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: 50%;
+  height: 40px;
+  cursor: pointer;
 }
 
 .btn-generate {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 
-    background-color: #10B981;
-    color: white;
+  background-color: #10b981;
+  color: white;
 }
 
 .password-container {
-    display: flex;
-    margin-top: 40px;
-    gap: 10px;
-
+  display: flex;
+  margin-top: 40px;
+  gap: 10px;
 }
 
 .password-container .btn {
-    background-color: #273549;
-    color: #10B981;
+  background-color: #273549;
+  color: #10b981;
 }
